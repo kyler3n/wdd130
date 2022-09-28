@@ -10,8 +10,7 @@
 }
 
 .home-title {
-    font-size: 2em;
-    font-family: 'Caveat', sans-serif;
+    font-size: 3.5em;
     margin-top: 10px;
 }
 
@@ -23,8 +22,15 @@ nav a {
     padding: 35px;
 }
 
-#hero-msg h1, #hero-msg h4 {
-    font-family: 'Encode Sans SC', Helvetica, sans-serif;
+#hero-msg h1 {
+    font-family: 'Caveat', Helvetica, sans-serif;
+    text-align: center;
+    color:#963322;
+    font-weight: bold;
+}
+
+#hero-msg h4 {
+    font-family: Nunito, Helvetica, sans-serif;
     text-align: center;
 }
 
@@ -51,7 +57,7 @@ main section img{
 
 body {
     font-family: 'Encode Sans SC', Helvetica, sans-serif;
-    background-color: #047577;
+    background-color: #F8F0E3;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -86,7 +92,7 @@ nav a:hover {
 }
 
 .msg {
-    background-color: blanchedalmond;
+    background-color: #047577;
     line-height: 1.5em;
 }
 
