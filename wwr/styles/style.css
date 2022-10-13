@@ -131,6 +131,14 @@ nav a {
     grid-gap: 10px;
 }
 
+.footerriver {
+    margin-top: 0;
+}
+
+img.home {
+    max-width: 100%;
+}
+
 main section {
     text-align: center;
 }
