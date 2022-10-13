@@ -10,6 +10,11 @@
     grid-template-columns: repeat(10, 1fr);
 }
 
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
 header{
     display: grid;
     grid-template-columns: 150px auto;
@@ -114,6 +119,16 @@ nav a {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px black;
+}
+
+.orangetext {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: Nunito;
+    font-size: 1.1em;
+    grid-column: 1/2;
+    padding: 25px;
+    grid-gap: 10px;
 }
 
 main section {
