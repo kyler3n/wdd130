@@ -51,7 +51,7 @@ p {
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(10, 1fr);
 }
 
 #hero {
@@ -112,17 +112,29 @@ p {
     font-family: 'Barlow Condensed', Helvetica, sans-serif;
     font-size: 4em;
     margin-left: 100px;
+    text-align: left;
+    padding-bottom: 20px;
 }
 
 .box1 p {
     display: grid;
     font-family: 'Lora', Helvetica, serif;
     margin-left: 100px;
+    text-align: left;
+    padding-bottom: 30px;
 }
 
 .tour {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(10, 1fr);
     grid-row: 4/5;
     display: flex;
+}
+
+footer {
+    background-color: #1A1C4B;
+    color: white;
+    text-align: center;
+    margin-top: 250px;
+    padding: 15px;
 }
