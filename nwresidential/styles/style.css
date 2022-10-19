@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -51,7 +56,7 @@ p {
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 #hero {
@@ -108,7 +113,6 @@ p {
 }
 
 .box1 h1 {
-    display: grid;
     font-family: 'Barlow Condensed', Helvetica, sans-serif;
     font-size: 4em;
     margin-left: 100px;
@@ -117,18 +121,10 @@ p {
 }
 
 .box1 p {
-    display: grid;
     font-family: 'Lora', Helvetica, serif;
     margin-left: 100px;
     text-align: left;
     padding-bottom: 30px;
-}
-
-.tour {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-row: 4/5;
-    display: flex;
 }
 
 footer {
@@ -137,4 +133,8 @@ footer {
     text-align: center;
     margin-top: 250px;
     padding: 15px;
+}
+
+footer a {
+    color: white;
 }
