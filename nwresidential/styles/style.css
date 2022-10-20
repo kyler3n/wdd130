@@ -154,7 +154,7 @@ button {
 
 footer {
     display: grid;
-    grid-template-columns: auto 500px ;
+    grid-template-columns: auto 200px;
     margin: auto;
     background-color: #1A1C4B;
     color: white;
