@@ -307,24 +307,27 @@ p {
     grid-row: 4/5;
     z-index: -1;
     max-height: 1000px;
-
 }
 
 #feedback {
     grid-column: 1/3;
     grid-row: 4/5;
     margin: auto;
-    width: 50%;
-    height: 50%;
-    background-color: #C9C9D4;
+    width: 70%;
+    background-color: hsla(240, 5%, 83%, 0.85);
+}
+
+.form h2 {
+    margin: 0 auto;
+    padding-top: 25px;
 }
 
 textarea {
+    display: block;
     width: 100%;
-    height: 150px;
+    height: 120px;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
     resize: none;
@@ -335,28 +338,24 @@ textarea {
     list-style: none;
 }
 
-form {
-    background-color: #C9C9D4;
-}
-
-.form p {
-    text-align: center;
-    margin: 15px;
-    margin-bottom: 0;
-}
-
 .consultations-footer {
     margin: 0;
 }
 
 input[type=text], [type=email], select {
     display: block;
-    width: 40%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
   }
 
-  .part2 li{
-    grid-column: 2/3;
-  }
+.form li{
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+}
+
+.form input {
+    width: 100%;
+}
